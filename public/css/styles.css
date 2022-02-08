@@ -46,6 +46,7 @@ header .form{
     align-items: center;
     padding: 2px;
     font-size: 11px;
+
 }
 header nav{
     font-size: 12px;
@@ -67,14 +68,21 @@ header .form .input{
     color: #666;
     padding: 2px;
     border-radius: 10px;
+
 }
 
 header .form .submit{
-    background-color: #FFF;
-    border: 1px solid #000;
+    /* background-color: #FFF; */
+    /* border: 1px solid #000; */
+    
     color: #666;
-    margin-left: 5px;
+    padding-right: 5px;
+
+
+    
 }
+
+
 
 div.burger-menu{
     text-align: center;
@@ -192,7 +200,7 @@ main section article:hover i {
     transition-duration: 1s, 5s;
 }
 
-main .register {
+/* main .register {
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -202,8 +210,8 @@ main .register {
     box-sizing: border-box;
     border-radius: 10px;
 }
-
-.register input#name, input#user, input#address, input#birthdate{
+ */
+.register input#name, input#user, input#address, input#birthdate, input#picture{
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -225,14 +233,51 @@ main .register {
 }
 
 .register p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
     width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 25%;
+    display: inline-block;
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.register div.reg-button  {
+/*     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     margin-left: 25%;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    border-radius: 10px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+}
+
+.register button#reg-confirm, button#reg-cancel {
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    /* width: 50%; */
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    background-color: #1259c3;
+    margin: 16px 0px;
     border-radius: 10px;
+}
+
+.register button#reg-confirm:hover,  button#reg-cancel:hover{
+    background-color: #0022aa;
+    color: #FFF;
+    transition: background-color, 0.5s, color, 0.5s;
 }
 
 .login input[type=text], input[type=password]{
@@ -269,8 +314,9 @@ main .register {
     font-weight: bold;
     width: 50%;
     padding: 12px 20px;
+    border: 1px solid #ccc;
     background-color: #1259c3;
-    margin: 16px 0px;
+    /* margin: 16px 0px; */
     border-radius: 10px;
 }
 
@@ -317,6 +363,12 @@ footer {
 
 
 @media (min-width: 361px) {
+
+    header nav {
+        display: none;
+    }
+
+
     .price,
     .discount{
         width: 50%;
