@@ -46,6 +46,11 @@ header .form{
     align-items: center;
     padding: 2px;
     font-size: 11px;
+    background-color: #FFF;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    border-radius: 10px;
 
 }
 header nav{
@@ -63,7 +68,7 @@ header ul li a{
 }
 
 header .form .input{
-    background-color: #FFF;
+    background-color: transparent;
     outline: none;
     color: #666;
     padding: 2px;
@@ -72,14 +77,10 @@ header .form .input{
 }
 
 header .form .submit{
-    /* background-color: #FFF; */
-    /* border: 1px solid #000; */
-    
-    color: #666;
-    padding-right: 5px;
-
-
-    
+    font-size: 16px;
+    background-color: transparent;
+    color: #666;  
+    margin-right: 5px;  
 }
 
 
@@ -364,10 +365,17 @@ footer {
 
 @media (min-width: 361px) {
 
+    header div.top-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
     header nav {
         display: none;
     }
-
 
     .price,
     .discount{
