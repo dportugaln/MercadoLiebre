@@ -192,6 +192,30 @@ main section article:hover i {
     transition-duration: 1s, 5s;
 }
 
+
+
+.login input[type=text], input[type=password]{
+    
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-left: 25%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+    
+}
+
+.login button.submit{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .login button:hover {
     background-color: #0022aa;
     color: #FFF;
@@ -280,6 +304,8 @@ footer {
 
     header .form .input{
         width: 75%;
+        font-size: 20px;
+        flex-grow: 1;
     }
 
     header div.top-header p{
@@ -287,6 +313,7 @@ footer {
         text-align: center;
         vertical-align: middle;
         margin-top: 10px;
+        
     }
 
     header nav{
