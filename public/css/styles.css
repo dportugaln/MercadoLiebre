@@ -388,15 +388,13 @@ footer {
 
 @media (min-width: 769px){
 
-    header {
-        height: 240px;
-    }
     header div.top-header{
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-between;
         width: 100%;
+        height: 150px;
     }
 
     header div.logo{
@@ -429,8 +427,7 @@ footer {
     header nav{
         display: flex;
         flex-direction: row;
-        position: relative;
-        bottom: 50px;
+        padding: 10px;
     }
 
     header nav div.service{
