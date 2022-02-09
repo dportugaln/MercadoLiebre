@@ -483,11 +483,16 @@ footer {
         flex-direction: column;
         text-align: center;
       }
+
+      footer section p {
+          text-align: center;
+          flex-direction: column;
+          padding: 10px 10px 10px 10px;
+      }
       
       footer .icono-footer {
         color: #1259c3;
-        height: 2em;
-        margin-bottom: 10px;
+
       }
       footer div.infofooter {
         display: flex;
