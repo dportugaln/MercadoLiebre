@@ -286,6 +286,7 @@ main section article:hover i {
     transition: background-color, 0.5s, color, 0.5s;
 }
 
+
 .login input[type=text], input[type=password]{
     
     width: 50%;
