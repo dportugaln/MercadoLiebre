@@ -388,18 +388,29 @@ footer {
 
 @media (min-width: 769px){
 
+    header {
+        height: 240px;
+    }
     header div.top-header{
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
         width: 100%;
     }
 
-    header div.logo, header .form, header p{
-    width: 25%;
+    header div.logo{
+        width: 20%;
+        position: relative;
+        bottom: 20px;
+    }
+    
+    header .form{
+        width: 45%;
     }
 
+
+    
     header .form .input{
         width: 75%;
         font-size: 20px;
@@ -408,7 +419,8 @@ footer {
 
     header div.top-header p{
         width: 25%;
-        text-align: center;
+        font-size: 16px;
+        text-align: left;
         vertical-align: middle;
         margin-top: 10px;
         
@@ -417,7 +429,8 @@ footer {
     header nav{
         display: flex;
         flex-direction: row;
-        padding-bottom: 10px;
+        position: relative;
+        bottom: 50px;
     }
 
     header nav div.service{
@@ -425,10 +438,7 @@ footer {
         flex-direction: row;
         align-items: flex-start;
         width: 50%;
-        padding-left: 30px;
         font-size: 14px;
-        /* font-size: 12px;
-        margin-left: 20px; */
     }
 
     header nav div.account{
@@ -436,10 +446,8 @@ footer {
         flex-direction: row;
         align-items: flex-end;
         width: 50%;
-        padding-left: 50px;
+        padding-left: 300px;
         font-size: 14px;
-        /* font-size: 12px;
-        margin-left: 20px; */
     }
 
     header li{
@@ -462,7 +470,7 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-         align-items: flex-start;
+        align-items: flex-start;
   }
 
     main section div.products article{
