@@ -439,6 +439,7 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
+        justify-content: flex-start;
         width: 50%;
         font-size: 14px;
     }
@@ -447,8 +448,8 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: flex-end;
+        justify-content: flex-end;
         width: 50%;
-        padding-left: 300px;
         font-size: 14px;
     }
 
