@@ -380,6 +380,10 @@ footer {
         width: 100%;
     }
 
+    header .form {
+        width: 60%;
+    }
+
     header nav {
         display: none;
     }
